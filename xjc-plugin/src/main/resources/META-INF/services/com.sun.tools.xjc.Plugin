@@ -1,1 +1,3 @@
-de.jaxbnstuff.xjcplugin.Instantiator
+de.jaxbnstuff.xjcplugin.FieldInstantiator
+de.jaxbnstuff.xjcplugin.ListInstantiator
+de.jaxbnstuff.xjcplugin.ListToSet
