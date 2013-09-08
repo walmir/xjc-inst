@@ -55,10 +55,6 @@ public class ListInstantiator extends Plugin {
 							f.init(JExpr._new(co.parent().getCodeModel()
 									.ref(ArrayList.class).narrow(inner)));
 							
-							
-							JType setType = co.parent().getCodeModel().ref(Set.class).narrow(inner);
-							f.type(setType);
-							
 							replaceGetterNoInst(co, f);	
 						}
 						
